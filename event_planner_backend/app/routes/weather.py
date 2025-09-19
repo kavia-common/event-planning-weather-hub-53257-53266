@@ -1,3 +1,6 @@
+import os
+  print('OPENWEATHER_API_KEY from env:', os.environ.get('OPENWEATHER_API_KEY'))
+
 from __future__ import annotations
 import json
 import logging
